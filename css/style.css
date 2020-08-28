@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.main {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main .headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.main .headers .main-title {
+  font-weight: 200;
+  font-size: 25pt;
+}
+
+.main .headers .sub-title {
+  font-weight: 400;
+  font-size: 25pt;
+}
+
+.main .headers .text-under-title {
+  font-size: 13px;
+  letter-spacing: .5px;
+  padding-top: 10px;
+  color: #a5a5a5;
+  margin-bottom: 50px;
+}
+
+.main .cards .card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  height: 250px;
+  margin: 10px;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 7px;
+  text-align: left;
+}
+
+.main .cards .card .card-title {
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.main .cards .card .card-text {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 15px;
+  width: 80%;
+  color: #abaaaa;
+}
+
+.main .cards .card .card-img {
+  position: absolute;
+  right: 10px;
+  bottom: 35px;
+}
+
+.main .cards .card:nth-child(1) {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top: #45d3d3 5px solid;
+}
+
+.main .cards .card:nth-child(2) {
+  border-top: #ea5353 5px solid;
+}
+
+.main .cards .card:nth-child(3) {
+  border-top: #549ef2 5px solid;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.main .cards .card:nth-child(4) {
+  border-top: #fcaf4a 5px solid;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (max-width: 968px) {
+  .cards {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .cards .card {
+    -webkit-transform: none !important;
+            transform: none !important;
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
